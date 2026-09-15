@@ -152,6 +152,11 @@ function getManifest(config, lang) {
     name: text.addonName,
     description: text.addonDescription,
     logo: LOGO_URL,
+    stremioAddonsConfig: {
+      issuer: 'https://stremio-addons.net',
+      signature:
+        'eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..KTIOrtZXJFFyWedE1xOvXA.VdXlw6_4rByi7YUcxbvA0eQZ56IOVmBHYHY_tGX4wPGFwCCHWw7NhOuQlSGamCbu3DpYz1B40x7JAawl8MSRB5Xw3r9n_rWnYLrExHpcsx8eLw8AqUhnA9V4rHT5xWse.2Q3v887q6e03649tqQa8wQ',
+    },
     resources: ['catalog'],
     types: ['movie'],
     idPrefixes: ['tt'],
